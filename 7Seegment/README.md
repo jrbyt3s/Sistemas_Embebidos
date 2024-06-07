@@ -2,7 +2,5 @@
 
 ## Reference Image:
 
-![Curiosity Nano PIC18F57Q84](https://www.microchip.com/content/dam/mchp/mrt-dam/devtools/3299-200603-mcu8-dm182030-18-q84-cnano-board.jpg)
+![Curiosity Nano PIC18F57Q84](https://onlinedocs.microchip.com/pr/GUID-775CB39B-A837-4214-A580-87DE952F6AC1-en-US-3/GUID-3D088918-58D2-4A77-93DD-7EF3307DD253-low.png)
 
-[!Curiosity Nano PIC18F57Q84]()
-[![Imagen de unas nubes](https://www.microchip.com/content/dam/mchp/mrt-dam/devtools/3299-200603-mcu8-dm182030-18-q84-cnano-board.jpg)](![/img/tutorial/imagen-markdown.webp](https://www.microchip.com/content/dam/mchp/mrt-dam/devtools/3299-200603-mcu8-dm182030-18-q84-cnano-board.jpg))
