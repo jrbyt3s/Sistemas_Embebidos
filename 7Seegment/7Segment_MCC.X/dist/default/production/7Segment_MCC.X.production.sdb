@@ -31,13 +31,13 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"2 D:\curso_PIC\7Seegment\7Segment_MCC.X\main.c
+"2 D:\curso_PIC\Mi_repo_git\Sistemas_Enbebidos\7Seegment\7Segment_MCC.X\main.c
 [v _show_digit show_digit `(v  1 e 1 0 ]
 "102
 [v _main main `(i  1 e 2 0 ]
-"39 D:\curso_PIC\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/clock.c
+"39 D:\curso_PIC\Mi_repo_git\Sistemas_Enbebidos\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/clock.c
 [v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
-"42 D:\curso_PIC\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/interrupt.c
+"42 D:\curso_PIC\Mi_repo_git\Sistemas_Enbebidos\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/interrupt.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 "83
 [v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
@@ -57,11 +57,11 @@
 [v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
 "148
 [v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
-"38 D:\curso_PIC\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/pins.c
+"38 D:\curso_PIC\Mi_repo_git\Sistemas_Enbebidos\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/pins.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"41 D:\curso_PIC\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/system.c
+"41 D:\curso_PIC\Mi_repo_git\Sistemas_Enbebidos\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
-[s S150 . 1 `uc 1 INT0IF 1 0 :1:0 
+[s S74 . 1 `uc 1 INT0IF 1 0 :1:0 
 `uc 1 ZCDIF 1 0 :1:1 
 `uc 1 ADIF 1 0 :1:2 
 `uc 1 ACTIF 1 0 :1:3 
@@ -71,9 +71,9 @@
 `uc 1 SMT1PWAIF 1 0 :1:7 
 ]
 "3247 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-Q_DFP/1.24.430/xc8\pic\include\proc\pic18f57q84.h
-[u S159 . 1 `S150 1 . 1 0 ]
-[v _PIR1bits PIR1bits `VES159  1 e 1 @1199 ]
-[s S181 . 1 `uc 1 INT1IF 1 0 :1:0 
+[u S83 . 1 `S74 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES83  1 e 1 @1199 ]
+[s S105 . 1 `uc 1 INT1IF 1 0 :1:0 
 `uc 1 CLC2IF 1 0 :1:1 
 `uc 1 CWG1IF 1 0 :1:2 
 `uc 1 NCO1IF 1 0 :1:3 
@@ -83,9 +83,9 @@
 `uc 1 DMA2AIF 1 0 :1:7 
 ]
 "3565
-[u S190 . 1 `S181 1 . 1 0 ]
-[v _PIR6bits PIR6bits `VES190  1 e 1 @1204 ]
-[s S212 . 1 `uc 1 INT2IF 1 0 :1:0 
+[u S114 . 1 `S105 1 . 1 0 ]
+[v _PIR6bits PIR6bits `VES114  1 e 1 @1204 ]
+[s S136 . 1 `uc 1 INT2IF 1 0 :1:0 
 `uc 1 CLC5IF 1 0 :1:1 
 `uc 1 CWG2IF 1 0 :1:2 
 `uc 1 NCO2IF 1 0 :1:3 
@@ -95,15 +95,15 @@
 `uc 1 DMA3AIF 1 0 :1:7 
 ]
 "3803
-[u S221 . 1 `S212 1 . 1 0 ]
-[v _PIR10bits PIR10bits `VES221  1 e 1 @1208 ]
+[u S145 . 1 `S136 1 . 1 0 ]
+[v _PIR10bits PIR10bits `VES145  1 e 1 @1208 ]
 "4153
 [v _LATA LATA `VEuc  1 e 1 @1214 ]
 "4215
 [v _LATB LATB `VEuc  1 e 1 @1215 ]
 "4277
 [v _LATC LATC `VEuc  1 e 1 @1216 ]
-[s S45 . 1 `uc 1 LATC0 1 0 :1:0 
+[s S305 . 1 `uc 1 LATC0 1 0 :1:0 
 `uc 1 LATC1 1 0 :1:1 
 `uc 1 LATC2 1 0 :1:2 
 `uc 1 LATC3 1 0 :1:3 
@@ -113,15 +113,27 @@
 `uc 1 LATC7 1 0 :1:7 
 ]
 "4294
-[u S54 . 1 `S45 1 . 1 0 ]
-[v _LATCbits LATCbits `VES54  1 e 1 @1216 ]
+[u S314 . 1 `S305 1 . 1 0 ]
+[v _LATCbits LATCbits `VES314  1 e 1 @1216 ]
 "4339
 [v _LATD LATD `VEuc  1 e 1 @1217 ]
+[s S347 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"4356
+[u S356 . 1 `S347 1 . 1 0 ]
+[v _LATDbits LATDbits `VES356  1 e 1 @1217 ]
 "4401
 [v _LATE LATE `VEuc  1 e 1 @1218 ]
 "4433
 [v _LATF LATF `VEuc  1 e 1 @1219 ]
-[s S67 . 1 `uc 1 LATF0 1 0 :1:0 
+[s S326 . 1 `uc 1 LATF0 1 0 :1:0 
 `uc 1 LATF1 1 0 :1:1 
 `uc 1 LATF2 1 0 :1:2 
 `uc 1 LATF3 1 0 :1:3 
@@ -131,8 +143,8 @@
 `uc 1 LATF7 1 0 :1:7 
 ]
 "4450
-[u S76 . 1 `S67 1 . 1 0 ]
-[v _LATFbits LATFbits `VES76  1 e 1 @1219 ]
+[u S335 . 1 `S326 1 . 1 0 ]
+[v _LATFbits LATFbits `VES335  1 e 1 @1219 ]
 "4495
 [v _TRISA TRISA `VEuc  1 e 1 @1222 ]
 "4557
@@ -145,7 +157,7 @@
 [v _TRISE TRISE `VEuc  1 e 1 @1226 ]
 "4775
 [v _TRISF TRISF `VEuc  1 e 1 @1227 ]
-[s S124 . 1 `uc 1 INT0EDG 1 0 :1:0 
+[s S48 . 1 `uc 1 INT0EDG 1 0 :1:0 
 `uc 1 INT1EDG 1 0 :1:1 
 `uc 1 INT2EDG 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
@@ -154,11 +166,11 @@
 `uc 1 GIE 1 0 :1:7 
 ]
 "5205
-[s S132 . 1 `uc 1 . 1 0 :7:0 
+[s S56 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 GIEH 1 0 :1:7 
 ]
-[u S135 . 1 `S124 1 . 1 0 `S132 1 . 1 0 ]
-[v _INTCON0bits INTCON0bits `VES135  1 e 1 @1238 ]
+[u S59 . 1 `S48 1 . 1 0 `S56 1 . 1 0 ]
+[v _INTCON0bits INTCON0bits `VES59  1 e 1 @1238 ]
 "5294
 [v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
 "5335
@@ -265,15 +277,15 @@
 [v _INLVLF INLVLF `VEuc  1 e 1 @1068 ]
 "65172
 [v _FSCMCON FSCMCON `VEuc  1 e 1 @1112 ]
-"101 D:\curso_PIC\7Seegment\7Segment_MCC.X\main.c
+"101 D:\curso_PIC\Mi_repo_git\Sistemas_Enbebidos\7Seegment\7Segment_MCC.X\main.c
 [v _digit digit `uc  1 e 1 0 ]
-"38 D:\curso_PIC\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/interrupt.c
+"38 D:\curso_PIC\Mi_repo_git\Sistemas_Enbebidos\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/interrupt.c
 [v _INT0_InterruptHandler INT0_InterruptHandler `*.38(v  1 e 3 0 ]
 "39
 [v _INT1_InterruptHandler INT1_InterruptHandler `*.38(v  1 e 3 0 ]
 "40
 [v _INT2_InterruptHandler INT2_InterruptHandler `*.38(v  1 e 3 0 ]
-"102 D:\curso_PIC\7Seegment\7Segment_MCC.X\main.c
+"102 D:\curso_PIC\Mi_repo_git\Sistemas_Enbebidos\7Seegment\7Segment_MCC.X\main.c
 [v _main main `(i  1 e 2 0 ]
 {
 "143
@@ -286,17 +298,17 @@
 [v show_digit@digit digit `uc  1 a 1 0 ]
 "95
 } 0
-"41 D:\curso_PIC\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/system.c
+"41 D:\curso_PIC\Mi_repo_git\Sistemas_Enbebidos\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "46
 } 0
-"38 D:\curso_PIC\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/pins.c
+"38 D:\curso_PIC\Mi_repo_git\Sistemas_Enbebidos\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/pins.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "138
 } 0
-"42 D:\curso_PIC\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/interrupt.c
+"42 D:\curso_PIC\Mi_repo_git\Sistemas_Enbebidos\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/interrupt.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 {
 "71
@@ -319,7 +331,7 @@
 [v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
 "94
 } 0
-"39 D:\curso_PIC\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/clock.c
+"39 D:\curso_PIC\Mi_repo_git\Sistemas_Enbebidos\7Seegment\7Segment_MCC.X\mcc_generated_files/system/src/clock.c
 [v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
 {
 "64

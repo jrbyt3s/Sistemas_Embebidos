@@ -39244,7 +39244,7 @@ void CLOCK_Initialize(void);
 # 42 "./mcc_generated_files/system/system.h" 2
 
 # 1 "./mcc_generated_files/system/../system/pins.h" 1
-# 278 "./mcc_generated_files/system/../system/pins.h"
+# 238 "./mcc_generated_files/system/../system/pins.h"
 void PIN_MANAGER_Initialize (void);
 
 
@@ -39297,94 +39297,94 @@ void SYSTEM_Initialize(void);
 void show_digit(uint8_t digit){
         switch (digit){
             case 0:
+                do { LATCbits.LATC2 = 0; } while(0);
                 do { LATCbits.LATC3 = 0; } while(0);
-                do { LATCbits.LATC7 = 0; } while(0);
-                do { LATCbits.LATC1 = 0; } while(0);
-                do { LATCbits.LATC4 = 0; } while(0);
-                do { LATCbits.LATC5 = 0; } while(0);
-                do { LATCbits.LATC6 = 0; } while(0);
-                do { LATCbits.LATC2 = 1; } while(0);
+                do { LATFbits.LATF6 = 0; } while(0);
+                do { LATFbits.LATF5 = 0; } while(0);
+                do { LATFbits.LATF4 = 0; } while(0);
+                do { LATDbits.LATD3 = 0; } while(0);
+                do { LATDbits.LATD2 = 1; } while(0);
                 break;
             case 1:
-                do { LATCbits.LATC3 = 1; } while(0);
-                do { LATCbits.LATC7 = 0; } while(0);
-                do { LATCbits.LATC1 = 0; } while(0);
-                do { LATCbits.LATC4 = 1; } while(0);
-                do { LATCbits.LATC5 = 1; } while(0);
-                do { LATCbits.LATC6 = 1; } while(0);
                 do { LATCbits.LATC2 = 1; } while(0);
+                do { LATCbits.LATC3 = 0; } while(0);
+                do { LATFbits.LATF6 = 0; } while(0);
+                do { LATFbits.LATF5 = 1; } while(0);
+                do { LATFbits.LATF4 = 1; } while(0);
+                do { LATDbits.LATD3 = 1; } while(0);
+                do { LATDbits.LATD2 = 1; } while(0);
                 break;
             case 2:
-                do { LATCbits.LATC3 = 0; } while(0);
-                do { LATCbits.LATC7 = 0; } while(0);
-                do { LATCbits.LATC1 = 1; } while(0);
-                do { LATCbits.LATC4 = 0; } while(0);
-                do { LATCbits.LATC5 = 0; } while(0);
-                do { LATCbits.LATC6 = 1; } while(0);
                 do { LATCbits.LATC2 = 0; } while(0);
+                do { LATCbits.LATC3 = 0; } while(0);
+                do { LATFbits.LATF6 = 1; } while(0);
+                do { LATFbits.LATF5 = 0; } while(0);
+                do { LATFbits.LATF4 = 0; } while(0);
+                do { LATDbits.LATD3 = 1; } while(0);
+                do { LATDbits.LATD2 = 0; } while(0);
                 break;
             case 3:
-                do { LATCbits.LATC3 = 0; } while(0);
-                do { LATCbits.LATC7 = 0; } while(0);
-                do { LATCbits.LATC1 = 0; } while(0);
-                do { LATCbits.LATC4 = 0; } while(0);
-                do { LATCbits.LATC5 = 1; } while(0);
-                do { LATCbits.LATC6 = 1; } while(0);
                 do { LATCbits.LATC2 = 0; } while(0);
+                do { LATCbits.LATC3 = 0; } while(0);
+                do { LATFbits.LATF6 = 0; } while(0);
+                do { LATFbits.LATF5 = 0; } while(0);
+                do { LATFbits.LATF4 = 1; } while(0);
+                do { LATDbits.LATD3 = 1; } while(0);
+                do { LATDbits.LATD2 = 0; } while(0);
                 break;
             case 4:
-                do { LATCbits.LATC3 = 1; } while(0);
-                do { LATCbits.LATC7 = 0; } while(0);
-                do { LATCbits.LATC1 = 0; } while(0);
-                do { LATCbits.LATC4 = 1; } while(0);
-                do { LATCbits.LATC5 = 1; } while(0);
-                do { LATCbits.LATC6 = 0; } while(0);
-                do { LATCbits.LATC2 = 0; } while(0);
+                do { LATCbits.LATC2 = 1; } while(0);
+                do { LATCbits.LATC3 = 0; } while(0);
+                do { LATFbits.LATF6 = 0; } while(0);
+                do { LATFbits.LATF5 = 1; } while(0);
+                do { LATFbits.LATF4 = 1; } while(0);
+                do { LATDbits.LATD3 = 0; } while(0);
+                do { LATDbits.LATD2 = 0; } while(0);
                 break;
             case 5:
-                do { LATCbits.LATC3 = 1; } while(0);
-                do { LATCbits.LATC7 = 0; } while(0);
-                do { LATCbits.LATC1 = 0; } while(0);
-                do { LATCbits.LATC4 = 1; } while(0);
-                do { LATCbits.LATC5 = 1; } while(0);
-                do { LATCbits.LATC6 = 1; } while(0);
                 do { LATCbits.LATC2 = 1; } while(0);
+                do { LATCbits.LATC3 = 0; } while(0);
+                do { LATFbits.LATF6 = 0; } while(0);
+                do { LATFbits.LATF5 = 1; } while(0);
+                do { LATFbits.LATF4 = 1; } while(0);
+                do { LATDbits.LATD3 = 1; } while(0);
+                do { LATDbits.LATD2 = 1; } while(0);
                 break;
             case 6:
+                do { LATCbits.LATC2 = 1; } while(0);
                 do { LATCbits.LATC3 = 1; } while(0);
-                do { LATCbits.LATC7 = 1; } while(0);
-                do { LATCbits.LATC1 = 0; } while(0);
-                do { LATCbits.LATC4 = 0; } while(0);
-                do { LATCbits.LATC5 = 0; } while(0);
-                do { LATCbits.LATC6 = 0; } while(0);
-                do { LATCbits.LATC2 = 0; } while(0);
+                do { LATFbits.LATF6 = 0; } while(0);
+                do { LATFbits.LATF5 = 0; } while(0);
+                do { LATFbits.LATF4 = 0; } while(0);
+                do { LATDbits.LATD3 = 0; } while(0);
+                do { LATDbits.LATD2 = 0; } while(0);
                 break;
             case 7:
+                do { LATCbits.LATC2 = 0; } while(0);
                 do { LATCbits.LATC3 = 0; } while(0);
-                do { LATCbits.LATC7 = 0; } while(0);
-                do { LATCbits.LATC1 = 0; } while(0);
-                do { LATCbits.LATC4 = 0; } while(0);
-                do { LATCbits.LATC5 = 1; } while(0);
-                do { LATCbits.LATC6 = 1; } while(0);
-                do { LATCbits.LATC2 = 1; } while(0);
+                do { LATFbits.LATF6 = 0; } while(0);
+                do { LATFbits.LATF5 = 1; } while(0);
+                do { LATFbits.LATF4 = 1; } while(0);
+                do { LATDbits.LATD3 = 1; } while(0);
+                do { LATDbits.LATD2 = 1; } while(0);
                 break;
             case 8:
-                do { LATCbits.LATC3 = 0; } while(0);
-                do { LATCbits.LATC7 = 0; } while(0);
-                do { LATCbits.LATC1 = 0; } while(0);
-                do { LATCbits.LATC4 = 0; } while(0);
-                do { LATCbits.LATC5 = 0; } while(0);
-                do { LATCbits.LATC6 = 0; } while(0);
                 do { LATCbits.LATC2 = 0; } while(0);
+                do { LATCbits.LATC3 = 0; } while(0);
+                do { LATFbits.LATF6 = 0; } while(0);
+                do { LATFbits.LATF5 = 0; } while(0);
+                do { LATFbits.LATF4 = 0; } while(0);
+                do { LATDbits.LATD3 = 0; } while(0);
+                do { LATDbits.LATD2 = 0; } while(0);
                 break;
             case 9:
-                do { LATCbits.LATC3 = 0; } while(0);
-                do { LATCbits.LATC7 = 0; } while(0);
-                do { LATCbits.LATC1 = 0; } while(0);
-                do { LATCbits.LATC4 = 1; } while(0);
-                do { LATCbits.LATC5 = 1; } while(0);
-                do { LATCbits.LATC6 = 0; } while(0);
                 do { LATCbits.LATC2 = 0; } while(0);
+                do { LATCbits.LATC3 = 0; } while(0);
+                do { LATFbits.LATF6 = 0; } while(0);
+                do { LATFbits.LATF5 = 1; } while(0);
+                do { LATFbits.LATF4 = 1; } while(0);
+                do { LATDbits.LATD3 = 0; } while(0);
+                do { LATDbits.LATD2 = 0; } while(0);
                 break;
         }
     }
@@ -39392,7 +39392,7 @@ void show_digit(uint8_t digit){
 
 
 
-uint16_t number = 888;
+uint16_t number = 69;
 uint8_t digit=0;
 int main(void)
 {
@@ -39401,25 +39401,25 @@ int main(void)
 # 116 "main.c"
     while(1)
     {
-        do { LATFbits.LATF5 = 0; } while(0);
-        do { LATFbits.LATF6 = 0; } while(0);
-        do { LATFbits.LATF7 = 0; } while(0);
+        do { LATFbits.LATF2 = 0; } while(0);
+        do { LATFbits.LATF3 = 0; } while(0);
+
 
         switch(digit){
             case 0:
-                show_digit(number/100);
-                do { LATFbits.LATF5 = 1; } while(0);
+                if(number>9){
+                    show_digit(number/10);
+                    do { LATFbits.LATF2 = 1; } while(0);
+                    break;
+                }
+
                 break;
             case 1:
-                show_digit((number % 100)/ 10);
-                do { LATFbits.LATF6 = 1; } while(0);
-                break;
-            case 2:
                 show_digit(number%10);
-                do { LATFbits.LATF7 = 1; } while(0);
+                do { LATFbits.LATF3 = 1; } while(0);
                 break;
         }
-        _delay((unsigned long)((500)*(64000000/4000.0)));
+        _delay((unsigned long)((5)*(64000000/4000.0)));
         digit ++;
         if (digit >2){
             digit = 0;

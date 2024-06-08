@@ -1,17 +1,14 @@
-/**
- * CLOCK Generated Driver Header File 
- * 
- * @file clock.h
- * 
- * @defgroup clockdriver Clock Driver
- * 
- * @brief This file contains the API prototypes and other data types for the Clock driver.
+/** 
+ * TMR Generated Driver API Header File
  *
- * @version Driver Version 2.0.4
+ * @file timer_interface.h
+ *  
+ * @defgroup timer_interface Timer interface
  *
- * @version Package Version 4.3.6
+ * @brief This header file provides interfaces to Timer APIs.
  *
-*/
+ * @version TMR_interface Version 1.0.1
+ */
 
 /*
 © [2024] Microchip Technology Inc. and its subsidiaries.
@@ -34,22 +31,32 @@
     THIS SOFTWARE.
 */
 
-#ifndef CLOCK_H
-#define	CLOCK_H
-
-#ifndef _XTAL_FREQ
-#define _XTAL_FREQ 16000000
-#endif
+#ifndef TMR_INTERFACE_H
+#define TMR_INTERFACE_H
 
 /**
- * @ingroup clockdriver
- * @brief Initializes all the Internal Oscillator sources and the clock switch configurations. 
- * @param None.
- * @return None.
+ * @brief This file contains API prototypes and other data types for the Timer interface.
+ * @{
  */
-void CLOCK_Initialize(void);
 
-#endif	/* CLOCK_H */
+#include<stddef.h>
+        
 /**
- End of File
-*/
+ @ingroup timer_interface
+ @struct TMR_INTERFACE
+ @brief This structure contains the interfaces to Timer module
+ */
+ 
+struct TMR_INTERFACE
+{
+    void (*Initialize)(void);
+    void (*Start)(void);
+    void (*Stop)(void);
+    void (*PeriodCountSet)(size_t count);
+    void (*TimeoutCallbackRegister)(void (* CallbackHandler)(void));
+    void (*Tasks)(void);
+};
+/**
+ * @}
+ */
+#endif //TMR_INTERFACE_H
