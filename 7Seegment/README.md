@@ -6,5 +6,5 @@
 
 ## Visual Board conexion:
 
-![Curiosity Nano 7 Segment display](/Curiosity_nano_7Segment-display.jpg)
+![Curiosity Nano 7 Segment display](7Seegment/Curiosity_nano_7Segment-display.jpg)
 
